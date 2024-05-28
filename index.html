@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KIMA - Loja de Vestidos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f2f2;
+            color: #333;
+        }
+        header {
+            background-color: #ffdee2;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #d48f94;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #f8e4e6;
+            padding: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #d48f94;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+        }
+        .hero {
+            background-color: #ffdee2;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .hero h2 {
+            color: #d48f94;
+            font-size: 2em;
+        }
+        .products, .about, .contact, .blog {
+            margin-bottom: 40px;
+        }
+        .products img, .about img, .blog img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+        }
+        .product-item, .blog-post {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #ffdee2;
+            padding: 10px;
+            text-align: center;
+        }
+        footer p {
+            margin: 0;
+            color: #d48f94;
+        }
+        .cart-button {
+            background-color: #d48f94;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        .cart-button:hover {
+            background-color: #b0656e;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>KIMA</h1>
+    </header>
+    <nav>
+        <a href="#home">Página Inicial</a>
+        <a href="#about">Sobre Nós</a>
+        <a href="#products">Catálogo de Produtos</a>
+        <a href="#contact">Contato</a>
+        <a href="#blog">Blog</a>
+    </nav>
+    <div class="container">
+        <section id="home" class="hero">
+            <h2>Bem-vindo à KIMA</h2>
+            <p>Descubra os melhores vestidos para adultos e crianças em um só lugar.</p>
+        </section>
+        <section id="about" class="about">
+            <h2>Sobre Nós</h2>
+            <p>Na KIMA, acreditamos que a moda deve ser acessível e divertida para todos. Oferecemos uma ampla variedade de vestidos, cuidadosamente selecionados para proporcionar estilo e conforto para todas as idades.</p>
+            <img src="https://via.placeholder.com/300" alt="Sobre nós">
+        </section>
+        <section id="products" class="products">
+            <h2>Catálogo de Produtos</h2>
+            <div class="product-item">
+                <h3>Vestido Adulto Elegante</h3>
+                <img src="https://via.placeholder.com/300" alt="Vestido Adulto">
+                <p>Preço: R$ 199,90</p>
+                <button class="cart-button">Adicionar ao Carrinho</button>
+            </div>
+            <div class="product-item">
+                <h3>Vestido Infantil Colorido</h3>
+                <img src="https://via.placeholder.com/300" alt="Vestido Infantil">
+                <p>Preço: R$ 129,90</p>
+                <button class="cart-button">Adicionar ao Carrinho</button>
+            </div>
+            <!-- Mais produtos podem ser adicionados aqui -->
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contato</h2>
+            <p>Tem alguma dúvida? Entre em contato conosco!</p>
+            <p>Email: contato@kima.com</p>
+            <p>Telefone: (11) 1234-5678</p>
+        </section>
+        <section id="blog" class="blog">
+            <h2>Blog</h2>
+            <div class="blog-post">
+                <h3>Como escolher o vestido perfeito</h3>
+                <img src="https://via.placeholder.com/300" alt="Blog Post">
+                <p>Dicas e truques para encontrar o vestido ideal para qualquer ocasião.</p>
+            </div>
+            <div class="blog-post">
+                <h3>Tendências de moda para 2024</h3>
+                <img src="https://via.placeholder.com/300" alt="Blog Post">
+                <p>Descubra as últimas tendências de moda que vão dominar o próximo ano.</p>
+            </div>
+            <!-- Mais posts podem ser adicionados aqui -->
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 KIMA. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
